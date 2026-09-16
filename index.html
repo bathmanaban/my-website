@@ -1,51 +1,296 @@
-	<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-<html>
 
 <head>
-	<meta charset='utf-8'>
-	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
-	<meta name='viewport' content='width=device-width, initial-scale=1.0' shrink-to-fit=no>
-	<meta name='description' content='Mechanical Engineering Senior X Techie'>
-	<meta name="keyword" content='manojk8688'>
-	<title>Bathmanaban's Site</title>
-	<link rel="stylesheet" href="CSS/master.css">
-	<link rel="b font" sizes="512x512" href="images/b font.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-	<meta name="theme-color" content="#696969">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bathmanaban R — Senior Software Engineer building scalable distributed systems, enterprise integration platforms, and event-driven microservices.">
+  <meta name="keywords" content="Bathmanaban, Senior Software Engineer, Java, Spring Boot, Kafka, Apache Camel, Microservices">
+  <title>Bathmanaban R | Senior Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/master.css">
+  <link rel="icon" type="image/png" href="images/b font.png">
+  <meta name="theme-color" content="#2563eb">
 </head>
 
 <body>
-	<img src="images/IMG_20210414_170943.jpg" width="10%" alt="IMG_20210414_170943">
 
-	<h2>Bathmanaban R - Software Engineer</h2>
-	<h2>About Me</h2>
-	<p> Detail-oriented Java Backend Developer with 3.5+ years of experience building scalable, secure, and high-performance
- applications in Agile environments. Proficient in Java, Spring Boot, and Microservices architecture, with working knowledge
- of React.js for frontend integration. Demonstrated expertise in CI/CD, TDD, and cloud-native development with AWS,
- Docker, and Kubernetes. Passionate about clean code, continuous improvement, and cross-functional collaboration.</p>
-	
-	<p>I'm currently a Software Engineer in Virtusa Consulting Services, Chennai</p>
-	<p>Have an idea,project or problem you'd like to discuss? Let's chat<a href="mailto:bathmanaban2000@gmail.com"target="_blank"> bathmanaban2000@gmail.com</a></p>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">Bathmanaban<span>.</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="resume.html">Resume</a>
+      </div>
+    </div>
+  </nav>
 
-	<h2>My Credentials</h2>
-        <p><a href="resume.html" target="_self">My Resume</a> 
+  <header class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">Senior Software Engineer · 4+ Years</div>
+        <h1>Bathmanaban R</h1>
+        <p class="hero-role">Senior Software Engineer · Backend Engineer</p>
+        <p class="hero-summary">
+          Backend Engineer with 4+ years of experience building scalable distributed systems, enterprise
+          integration platforms, and event-driven microservices using Java, Spring Boot, Kafka, Apache Camel,
+          Redis, and AWS.
+        </p>
+        <div class="hero-actions">
+          <a href="resume.html" class="btn btn-primary">View Resume</a>
+          <a href="mailto:bathmanaban2000@gmail.com" class="btn btn-outline">Get in Touch</a>
+          <a href="https://www.linkedin.com/in/bathmanaban-r-5140b1176/" class="btn btn-outline" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="images/IMG_20210414_170943.jpg" alt="Bathmanaban R">
+      </div>
+    </div>
+  </header>
 
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-subtitle">
+        Senior Software Engineer at Newage Software &amp; Solutions, Chennai — designing enterprise
+        integration systems for customs, payments, and logistics platforms.
+      </p>
+      <div class="card">
+        <p>
+          Experienced in designing low-latency backend services, asynchronous processing pipelines,
+          multi-tenant architectures, and secure API platforms for financial systems and customs integrations.
+          Strong understanding of distributed messaging, fault tolerance, concurrent processing, and
+          enterprise-grade backend architecture. Previously delivered high-availability microservices for
+          Citi Bank through Virtusa Corporation.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section" style="background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <p class="section-subtitle">Core technologies, tools, and architecture expertise.</p>
+
+      <div class="skill-category">
+        <h3>Languages</h3>
+        <div class="skills-grid">
+          <span class="skill-tag">Java (17, 21)</span>
+          <span class="skill-tag">Java EE</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">Python</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>Frameworks</h3>
+        <div class="skills-grid">
+          <span class="skill-tag">Spring Boot</span>
+          <span class="skill-tag">Spring MVC</span>
+          <span class="skill-tag">Spring Security</span>
+          <span class="skill-tag">Hibernate</span>
+          <span class="skill-tag">Apache Camel</span>
+          <span class="skill-tag">JUnit</span>
+          <span class="skill-tag">Mockito</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>Messaging & Caching</h3>
+        <div class="skills-grid">
+          <span class="skill-tag">Kafka</span>
+          <span class="skill-tag">Apache ActiveMQ</span>
+          <span class="skill-tag">Redis</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>Cloud & DevOps</h3>
+        <div class="skills-grid">
+          <span class="skill-tag">AWS (ECS, IAM, CloudWatch, S3)</span>
+          <span class="skill-tag">Docker</span>
+          <span class="skill-tag">Kubernetes</span>
+          <span class="skill-tag">Jenkins</span>
+          <span class="skill-tag">CI/CD</span>
+          <span class="skill-tag">SonarQube</span>
+          <span class="skill-tag">Blackduck</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>Databases</h3>
+        <div class="skills-grid">
+          <span class="skill-tag">PostgreSQL</span>
+          <span class="skill-tag">MongoDB</span>
+          <span class="skill-tag">MySQL</span>
+          <span class="skill-tag">Oracle SQL</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>Architecture & Domains</h3>
+        <div class="skills-grid">
+          <span class="skill-tag">Microservices</span>
+          <span class="skill-tag">Event-Driven Architecture</span>
+          <span class="skill-tag">Multi-Tenancy</span>
+          <span class="skill-tag">Distributed Systems</span>
+          <span class="skill-tag">Payments</span>
+          <span class="skill-tag">Customs Integration</span>
+          <span class="skill-tag">Logistics Platforms</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <p class="section-subtitle">Professional roles across enterprise integration and financial systems.</p>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <h3>Senior Software Engineer</h3>
+            <span class="timeline-date">Jun 2025 – Present</span>
+          </div>
+          <p class="timeline-company">Newage Software &amp; Solutions · Chennai, India</p>
+          <ul>
+            <li>Designed scalable backend systems integrating US Customs and Dubai Customs platforms with Newage applications for secure enterprise trade processing.</li>
+            <li>Architected distributed integration workflows using Apache Camel, Apache ActiveMQ, and event-driven communication patterns.</li>
+            <li>Designed a Redis-based multi-tenant routing system to dynamically route customs responses to customer tenants with low latency.</li>
+            <li>Developed high-throughput payment integration systems with banking partners including CITI, HDFC, HSBC, and PineLabs.</li>
+            <li>Built resilient message processing pipelines with retry strategies, dead-letter queues, and centralized error handling.</li>
+            <li>Developed secure REST APIs using Spring Boot, JWT authentication, and Spring Security.</li>
+            <li>Led module-level ownership and collaborated with cross-functional teams in Agile environments.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <h3>Software Engineer</h3>
+            <span class="timeline-date">Nov 2021 – May 2025</span>
+          </div>
+          <p class="timeline-company">Virtusa Corporation · Chennai, India</p>
+          <span class="timeline-client">Client: Citi Bank</span>
+          <ul>
+            <li>Designed and developed high-availability microservices for enterprise certificate management using Java, Spring Boot, and Kafka.</li>
+            <li>Migrated legacy ETL workflows from Ab Initio to scalable Java + Spark pipelines.</li>
+            <li>Worked extensively with MongoDB for aggregation pipelines, query optimization, and performance tuning.</li>
+            <li>Built and maintained CI/CD pipelines using Jenkins and Bitbucket with SonarQube and Blackduck validation.</li>
+            <li>Deployed containerized microservices using Docker and AWS ECS with CloudWatch monitoring.</li>
+            <li>Improved application reliability through unit and integration testing with JUnit and Mockito.</li>
+            <li>Mentored junior developers and conducted technical knowledge-sharing sessions.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section" style="background: var(--surface); border-top: 1px solid var(--border);">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-subtitle">Selected projects across AI, data science, and web development.</p>
+
+      <div class="card-grid">
+        <div class="card">
+          <h3>GenAI Financial Engagement Assistant</h3>
+          <p class="card-meta">Python · OpenAI · Streamlit · Jun 2025 – Present</p>
+          <ul>
+            <li>Built a backend-driven AI platform to analyze customer transaction data and generate personalized financial insights.</li>
+            <li>Designed scalable data processing workflows and APIs for real-time recommendation generation.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Voice Agent for Recruitment Automation</h3>
+          <p class="card-meta">Python · VAPI · Machine Learning · Jun 2025 – Present</p>
+          <ul>
+            <li>Developed a conversational recruitment automation system for candidate onboarding, scheduling, and job matching.</li>
+            <li>Implemented workflow orchestration using modular backend processing logic.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>E-Commerce Customer Segmentation</h3>
+          <p class="card-meta">Python · Scikit-learn · Sep 2021</p>
+          <ul>
+            <li>Implemented customer segmentation using K-Means clustering and RFM analysis for behavioral insights.</li>
+            <li>Applied PCA and preprocessing techniques for optimized clustering performance.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Portfolio Website</h3>
+          <p class="card-meta">HTML · CSS · JavaScript · Aug 2021</p>
+          <ul>
+            <li>Developed a responsive portfolio website to showcase projects and technical skills.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Key Achievements</h2>
+      <p class="section-subtitle">Recognition and measurable impact.</p>
+
+      <div class="achievements-grid">
+        <div class="achievement-item">
+          <div class="achievement-icon">⚡</div>
+          <p>Reduced manual QA effort by 30% through automation and validation tooling.</p>
+        </div>
+        <div class="achievement-item">
+          <div class="achievement-icon">🔒</div>
+          <p>Identified and resolved application vulnerabilities aligned with OWASP security standards.</p>
+        </div>
+        <div class="achievement-item">
+          <div class="achievement-icon">★</div>
+          <p>Received client appreciation award for innovation and timely project delivery.</p>
+        </div>
+        <div class="achievement-item">
+          <div class="achievement-icon">☕</div>
+          <p>Oracle Certified Associate, Java SE 8 Programmer — Oracle (Jan 2022).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="section-subtitle">
+        Have an idea, project, or problem you'd like to discuss? I'd love to hear from you.
+      </p>
+      <div class="contact-links">
+        <a href="tel:+918110973197">+91 8110973197</a>
+        <a href="mailto:bathmanaban2000@gmail.com">bathmanaban2000@gmail.com</a>
+        <a href="https://www.linkedin.com/in/bathmanaban-r-5140b1176/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/bathmanaban" target="_blank" rel="noopener">GitHub</a>
+        <a href="resume.html">View Full Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>
+        Built with HTML & CSS ·
+        <a href="about.html">About this site</a> ·
+        <a href="https://github.com/bathmanaban" target="_blank" rel="noopener">Source on GitHub</a>
+      </p>
+      <div class="copyright">&copy; 2026 Bathmanaban R. All rights reserved.</div>
+    </div>
+  </footer>
 
 </body>
-
-<footer>
-	<p><br></p>
-	<p><a class="intr" href="https://www.linkedin.com/in/bathmanaban-r-5140b1176/" target="_self">My Linkedin</a>
-	
-	
-	<p>This website is a little summer project built in 2020 after taking an introductory course to HTML | <a href="about.html" class="intr">About website</a></p>
-
-    <div class="copyright">
-	&copy; 2020 My Website. All rights reserved.
-	</div>
-	
-</footer>
-
 </html>
